@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames/bind';
 import { useNavigate } from 'react-router-dom';
-import styles from './NotFoundpage.module';
+import styles from './NotFoundPage.module';
 import Button from '@components/Button';
 import Illustration from './svgs';
 
