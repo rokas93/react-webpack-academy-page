@@ -36,7 +36,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production",
+    "build": "webpack build --output public",
     "test": "jest",
     "stylelint:lint": "stylelint \"src/**/*.css\"",
     "stylelint:fix": "stylelint \"src/**/*.css\" --fix",
